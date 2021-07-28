@@ -1,0 +1,84 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.searchElement {
+  width: 100%;
+  background-color: #f1f5f9;
+  padding: 10px;
+  border-radius: 12px;
+  border-width: 0px;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.filter-ul-container {
+  list-style: none;
+  margin-left: -40px;
+}
+
+.rating-image {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.image-para-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.filter-heading {
+  font-size: #0f172a;
+  font-size: 18px;
+}
+
+.category-list {
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.input-search-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  padding-right: 10px;
+}
+
+.heading {
+  color: #000000;
+}
+
+.clear-filter-button {
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 4px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.hightLite {
+  color: #0967d2;
+}

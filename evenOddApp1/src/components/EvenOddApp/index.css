@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.number-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff, #334155);
+  border-radius: 5px;
+  padding: 10px;
+}

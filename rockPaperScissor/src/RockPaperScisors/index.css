@@ -1,0 +1,7 @@
+.game-items-container {
+  display: flex;
+}
+
+.game-item-image {
+  width: 200px;
+}

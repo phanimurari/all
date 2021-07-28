@@ -1,0 +1,31 @@
+/* Write your code here. */
+.bg-image-holder {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/coffee-planner-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 50px;
+  color: white;
+}
+.text-holder {
+  max-width: 380px;
+  margin-right: 30px;
+}
+.allOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+li {
+  list-style-type: none;
+}
+.finalButton {
+  padding: 10px;
+  background-color: #0e8684;
+  border-radius: 5px;
+  border-width: 0px;
+}

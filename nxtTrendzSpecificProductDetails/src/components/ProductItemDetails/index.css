@@ -1,0 +1,15 @@
+.product-details-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-image {
+  width: 300px;
+}
+
+.error_image {
+  width: 200px;
+}
+.star-container {
+  background-color: #0b69ff;
+}

@@ -1,0 +1,22 @@
+.hacker-news-clone-container {
+  background-color: #171531;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hacker-news-clone-heading {
+  color: #ffffff;
+}
+
+.tabs-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.news-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

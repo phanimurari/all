@@ -1,0 +1,7 @@
+.pagination-footer-container {
+  display: flex;
+}
+
+.active-page {
+  color: #ffffff;
+}

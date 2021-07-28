@@ -1,0 +1,53 @@
+.content-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  background-color: #000000;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px 30px 20px;
+}
+
+.heading-container {
+  width: 80%;
+  text-align: center;
+  margin: 10px 5px 10px 5px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #00e7ff;
+  margin: 0;
+}
+
+.banner-container {
+  width: 95%;
+  margin: 10px 5px 20px 5px;
+}
+
+.banner {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+
+  .banner-container {
+    width: 75%;
+  }
+
+  .banner {
+    width: 100%;
+    height: 100%;
+  }
+}

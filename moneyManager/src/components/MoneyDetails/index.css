@@ -1,0 +1,48 @@
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.details-item-container {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  flex-grow: 1;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.balance-item {
+  background: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.income-item {
+  background: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expense-item {
+  background: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.details-item-container h1 {
+  font-size: 12px;
+  color: #cbd5e1;
+  font-family: Roboto;
+}
+
+.details-item-container p {
+  font-size: 20px;
+  color: #7e858e;
+  font-family: Roboto;
+}

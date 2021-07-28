@@ -1,0 +1,14 @@
+/* Write your CSS here */
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-image: linear-gradient(to bottom, #2b2c49, #303150, #b5b9ff);
+  padding: 200px;
+  border-radius: 5px;
+}

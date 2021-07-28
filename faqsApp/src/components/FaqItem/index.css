@@ -1,0 +1,15 @@
+/* Write your code here. */
+
+.question-inside-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question {
+  border-radius: 15px;
+  margin: 15px;
+  background-color: #ffffff;
+  border: 1px solid #9aa5b1;
+  padding: 15px;
+}

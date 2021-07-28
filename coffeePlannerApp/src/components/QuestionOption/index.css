@@ -1,0 +1,27 @@
+/* Write your code here. */
+.options {
+  background-color: #f4f1ea;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 5px;
+  max-width: 230px;
+}
+.blueCup {
+  width: 25px;
+}
+.titleAndImageHolder {
+  display: flex;
+  justify-content: space-between;
+}
+.optionTitle {
+  margin-top: 0px;
+  color: #2e353d;
+  font-weight: bold;
+}
+
+.normal {
+  background-color: #f4f1ea;
+}
+.active {
+  background-color: #0e8684;
+}

@@ -1,0 +1,7 @@
+.strike-through {
+  text-decoration: line-through;
+}
+
+.no-strike-through {
+  text-decoration: none;
+}

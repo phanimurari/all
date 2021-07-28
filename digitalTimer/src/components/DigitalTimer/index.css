@@ -1,0 +1,137 @@
+/* Write your CSS here */
+
+.bg-container {
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+}
+
+.Heading {
+  font-family: 'roboto';
+  font-size: 34px;
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.counter-clock-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-clock {
+  background-color: #ffffff;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  margin-left: 50px;
+}
+
+.clock-heading {
+  font-family: 'roboto';
+  font-size: 34px;
+  font-weight: 700;
+  color: #00d9f5;
+  margin-bottom: 0;
+}
+
+.clock-status-text {
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #0f172a;
+  margin-top: 0;
+}
+
+.controls-container {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-control-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.control-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+}
+
+.control-btn-img {
+  height: 30px;
+  width: 30px;
+}
+
+.control-btn-text {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #0f172a;
+  margin-left: 10px;
+}
+
+.set-limit-text {
+  font-family: 'roboto';
+  font-size: 10px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.control-limit-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.limit-control-btn {
+  border: none;
+  background-color: transparent;
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.limit-control-text {
+  background-color: #00d9f5;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+}
